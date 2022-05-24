@@ -1,0 +1,103 @@
+[
+    {
+        "user_id": 1,
+        "name": "Moussa",
+        "shoes": [{"1": 100}, {"5": 50}]
+    },
+    {
+        "user_id": 2,
+        "name": "Amanda",
+        "shoes": [{"2": 100}, {"3": 150}]
+    },
+    {
+        "user_id": 3,
+        "name": "Zander",
+        "shoes": [{"1": 200}, {"6": 100}]
+    },
+    {
+        "user_id": 4,
+        "name": "Allison",
+        "shoes": [{"4": 400}]
+    },
+    {
+        "user_id": 5,
+        "name": "Adam",
+        "shoes": [{"1": 350}, {"6": 100}, {"7": 100}]
+    },
+    {
+        "user_id": 6,
+        "name": "Zoe",
+        "shoes": [{"3": 400}, {"8": 50}]
+    },
+    {
+        "user_id": 7,
+        "name": "Jake",
+        "shoes": [{"1": 100}, {"5": 100}, {"9": 100}]
+    },
+    {
+        "user_id": 8,
+        "name": "Rev",
+        "shoes": [{"1": 200}, {"6": 100}]
+    },
+    {
+        "user_id": 9,
+        "name": "Brophy",
+        "shoes": [{"5": 400}, {"9": 300} ]
+    },
+    {
+        "user_id": 10,
+        "name": "Jen",
+        "shoes": [{"3": 350}, {"4": 100}, {"10": 100}]
+    },
+    {
+        "user_id": 11,
+        "name": "Javier",
+        "shoes": [{"1": 100}, {"10": 50}]
+    },
+    {
+        "user_id": 12,
+        "name": "Oshie",
+        "shoes": [{"3": 150}, {"4": 200}]
+    },
+    {
+        "user_id": 13,
+        "name": "Larson",
+        "shoes": [{"1": 200}, {"6": 100}]
+    },
+    {
+        "user_id": 14,
+        "name": "Jalei",
+        "shoes": [{"4": 200}]
+    },
+    {
+        "user_id": 15,
+        "name": "Gina",
+        "shoes": [{"2": 350}, {"4": 100}, {"8": 100}]
+    },
+    {
+        "user_id": 16,
+        "name": "Jackson",
+        "shoes": [{"1": 100}, {"5": 50}]
+    },
+    {
+        "user_id": 17,
+        "name": "Brenna",
+        "shoes": [{"2": 350}, {"3": 225}]
+    },
+    {
+        "user_id": 18,
+        "name": "Mary",
+        "shoes": [{"1": 250}, {"6": 175}]
+    },
+    {
+        "user_id": 19,
+        "name": "Wes",
+        "shoes": [{"9": 450}]
+    },
+    {
+        "user_id": 20,
+        "name": "Gabriele",
+        "shoes": [{"1": 100}, {"6": 250}, {"10": 500}]
+    } 
+
+]
