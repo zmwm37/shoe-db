@@ -3,8 +3,8 @@ import sqlite3
 import pandas as pd
 from db_sql import DB
 
-
 DATABASE = None
+
 
 def load_json(file):
     d = open(file)
@@ -36,7 +36,7 @@ def create_links(user_shoes):
         
         for i, id in enumerate(shoe_ids):
             shoe_set.add(id)
-            for other_id in shoe_ids:
+            for other_id in shoe_ids[(i + 1): len(shoe_ids)]:
                 if id != other_id:
                     # all combinations used here for sql version, would only
                     # need permutations for graph
@@ -48,16 +48,6 @@ def create_links(user_shoes):
     return pd.DataFrame(shoe_set, columns = ['shoe_id']), \
         shoe_links, \
         shoe_links_agg
-
-
-def create_shoe_graph(shoes, shoe_links, db_info):
-    '''
-    Provided a list of shoes and shoe link tuples, create a Neo4j graph
-    '''
-    #uri, user, pwd = db_info
-    #conn = db.Neo4jConnection(uri=uri, user=user, pwd=pwd)
-    # TODO
-    pass
 
 
 def create_shoe_links_table():
@@ -74,8 +64,9 @@ def load_shoe_links(shoe_links):
     
 
 def create_shoe_recs(current_shoes):
-    '''Provided current shoe id(s), return a sorted list of recomended shoes'''
-    # TODO 
+    '''
+    Provided current shoe id(s), return a sorted list of recomended shoes
+    '''
     rec_dict = {}
     db = DB(get_db_conn('shoes.db', DATABASE))
     for id in current_shoes:
@@ -89,4 +80,13 @@ def create_static_recs():
     '''
     # TODO 
     pass
-    
+
+
+def create_shoe_graph(shoes, shoe_links, db_info):
+    '''
+    Provided a list of shoes and shoe link tuples, create a Neo4j graph
+    '''
+    #uri, user, pwd = db_info
+    #conn = db.Neo4jConnection(uri=uri, user=user, pwd=pwd)
+    # TODO
+    pass

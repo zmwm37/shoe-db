@@ -1,0 +1,16 @@
+
+[
+    {
+        "1": {"brand":"HOKA ONE ONE", "model": "Bondi 7"},
+        "2": {"brand":"HOKA ONE ONE", "model": "Clifton 8 - Women's"},
+        "3": {"brand":"Brooks", "model": "Adrenaline GTS 22"},
+        "4": {"brand":"On", "model": "Cloud X - Women's"},
+        "5": {"brand":"On", "model": "Cloudflyer"},
+        "6": {"brand":"Brooks", "model": "Ghost 14"},
+        "7": {"brand":"Altra", "model": "Torin 5"},
+        "8": {"brand":"Altra", "model": "Rivera - Women's"},
+        "9": {"brand":"Saucony", "model": "Endorphin 2"},
+        "10": {"brand":"HOKA ONE ONE", "model": "Speedgoat 4"}
+    }
+
+]
