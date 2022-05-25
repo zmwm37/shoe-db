@@ -8,7 +8,6 @@ def format_results(shoe_rec, shoe_info):
     print(f"{shoe_rec['rank']} ({shoe_rec['weight']} matches) - {rec_shoe_info['brand']} {rec_shoe_info['model']}")
 
 
-
 def test_users_5():
     '''
     Return recommendations for users_5.json input.
@@ -22,7 +21,7 @@ def test_users_5():
         print(server.create_shoe_recs([i]))
 
 
-def test_users_20(shoe_id=None):
+def test_users_20(shoe_id=None, test_static = False):
     '''
     Return formatted recommendations for users_20.json input.
     '''
@@ -48,6 +47,9 @@ def test_users_20(shoe_id=None):
             for shoe in shoe_recs:
                 format_results(shoe, shoe_info)
             print('-------------')
-
+    
+    if test_static:
+        print("STATIC DICTIONARY OF ALL SHOE RECS")
+        print(server.create_static_recs(shoes))
 
 
